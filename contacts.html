@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Joseph</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <header class="header">
+        <nav class="nav" aria-label="Main navigation">
+            <div class="nav__brand">Joseph</div>
+
+            <ul class="nav__list">
+                <li><a class="nav__link" href="index.html">Home</a></li>
+                <li><a class="nav__link" href="about.html">About</a></li>
+                <li><a class="nav__link" href="projects.html">Projects</a></li>
+                <li><a class="nav__link" href="contacts.html">Contact</a></li>
+                <li class="nav__search-item">
+                    <input class="nav__search-input" type="search" placeholder="Search..." aria-label="Search">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="page">
+
+        <section class="contact">
+            <h1 class="contact__title">Contact Me</h1>
+
+            <form action="mailto:jkinyanjui@gmail.com" method="post" enctype="text/plain">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Choose a subject</option>
+                    <option value="project">Project</option>
+                    <option value="question">Question</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+        <section class="contact social">
+            <h2 class="contact__subtitle">Social Media</h2>
+
+            <a href="https://github.com/Quantums-meruit" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/jkinyanjui" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </section>
+
+        <section class="contact location">
+            <h2 class="contact__subtitle">Location & Timezone</h2>
+
+            <address>
+                Nairobi, Kenya<br>
+                East Africa Time (EAT)<br>
+                UTC+3
+            </address>
+        </section>
+
+    </main>
+
+</body>
+</html>
