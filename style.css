@@ -350,7 +350,47 @@ location{
 }
 
 
+/* 📱 Phones */
+@media (max-width: 767px) {
+    body {
+        /* phone styles */
+	font-size: 14px;
+    }
 
+    nav {
+        /* phone navigation */
+	font-size: 14px;
+	display:flex;
+
+
+    }
+}
+
+
+/* 📲 Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        /* tablet styles */
+	font-size:16px;
+	display:flex;
+    }
+
+    nav {
+        /* tablet navigation */
+    }
+}
+
+
+/* 💻 Desktop */
+@media (min-width: 1024px) {
+    body {
+        /* desktop styles */
+    }
+
+    nav {
+        /* desktop navigation */
+    }
+}
 
 
 
